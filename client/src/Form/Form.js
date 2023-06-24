@@ -14,7 +14,7 @@ const Form = () => {
   });
   const handleUserPost = () => {
     axios({
-      url: "https://photo-sharing-server.herokuapp.com/new",
+      url: "http://localhost:3006/new",
       method: "POST",
       headers: {},
       data: newPostState,

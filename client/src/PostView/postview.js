@@ -3,7 +3,7 @@ import "./postview.css";
 const PostView = () => {
   const [userData, setUserData] = useState([]);
   useEffect(() => {
-    fetch("https://photo-sharing-server.herokuapp.com/all")
+    fetch("http://localhost:3006/all")
       .then((data) => {
         return data.json();
 
